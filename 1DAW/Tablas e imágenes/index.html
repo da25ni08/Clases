@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Horario clases</title>
+	</head>
+	<style>
+		table {
+			border: 4px solid #FFB200;
+			font-family: calibri;
+			background-color: #FFF4CF;
+			color: #277BC0;
+			margin: 0px 40px 0px 40px;
+			width: 85%;
+		}
+		td {
+			border:2px solid #FFCB42;
+		}
+		th {
+			border:2px solid #FFB200;
+		}
+	</style>
+	<body style="text-align: center;">
+		
+		<picture>
+			<source srcset="images\logo-xl.jpeg" media="(min-width: 600px)">
+			<source srcset="images\logo-large.jpeg" media="(min-width: 400px)">
+			<source srcset="images\logo-small.jpeg">
+			<img src="images\logo.png" alt="Horario">
+		</picture>
+		<table>
+			<thead>
+				<tr>
+					<td style="border: none; background-color: white;"></td>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miércoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<th>14:00 - 14:55</th>
+					<td rowspan="2">LND</td>
+					<td rowspan="2">BAE</td>
+					<td rowspan="3">PRO</td>
+					<td rowspan="2">FOL</td>
+					<td rowspan="2">BAE</td>
+				</tr>
+				<tr>
+					<th>14:55 - 15:50</th>
+				</tr>
+				<tr>
+					<th>15:50 - 16:45</th>
+					<td>LNT</td>
+					<td>LND</td>
+					<td>PRO - Programación</td>
+					<td>SSF - Sistemas informáticos</td>
+				</tr>
+				<tr>
+					<th>16:45 - 17:15</th>
+					<td colspan="5">Recreo</td>	
+				</tr>
+				<tr>
+					<th>17:15 - 18:10</th>
+					<td>ETS - Entornos de desarrollo</td>
+					<td>LND - Lenguaje de marca</td>
+					<td rowspan="3">SSF -  Sistemas informáticos</td>
+					<td rowspan="3">PRO - Programación</td>
+					<td>SSF - Sistemas informáticos</td>
+				</tr>
+				<tr>
+					<th>18:10 - 19:05</th>
+					<td rowspan="2">BAE - Base de datos</td>
+					<td>LNT - Inglés</td>
+					<td rowspan="2">ETS - Entornos de desarrollo</td>
+				</tr>
+				<tr>
+					<th>19:05 - 20:00</th>
+					<td>FOL - Formación y orientación laboral</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>Módulo</th>
+					<th colspan="4">Nombre del Módulo Profesional</th>
+					<th>Profesor/a</th>
+				</tr>
+				<tr>
+					<th>LND</th>
+					<th colspan="4">Lenguaje de Marca</th>
+					<th></th>
+				</tr>
+				<tr>
+					<th>BAE</th>
+					<th colspan="4">Base de Datos</th>
+					<th></th>
+				</tr>
+				<tr>
+					<th>PRO</th>
+					<th colspan="4">Programación</th>
+					<th></th>
+				</tr>
+				<tr>
+					<th>SSF</th>
+					<th colspan="4">Sistemas Informáticos</th>
+					<th></th>
+				</tr>
+				<tr>
+					<th>ETS</th>
+					<th colspan="4">Entornos de Desarrollo</th>
+					<th></th>
+				</tr>
+				<tr>
+					<th>LNT</th>
+					<th colspan="4">Segunda Lengua extranjera: Inglés</th>
+					<th></th>
+				</tr>
+				<tr>
+					<th>FOL</th>
+					<th colspan="4">Formación y Orientación Laboral</th>
+					<th></th>
+				</tr>
+			</tfoot>
+		</table>
+		
+	</body>
+</html>
